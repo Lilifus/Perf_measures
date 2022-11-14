@@ -1,3 +1,4 @@
+# CPU and caches Informations
 ### lscpu OUTPUT
 ```
 Architecture:                    x86_64
