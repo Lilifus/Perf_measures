@@ -1,4 +1,5 @@
-#######################lscpu OUTPUT#####################################
+### lscpu OUTPUT
+```
 Architecture:                    x86_64
 CPU op-mode(s):                  32-bit, 64-bit
 Address sizes:                   39 bits physical, 48 bits virtual
@@ -35,7 +36,9 @@ Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user
 Vulnerability Spectre v2:        Mitigation; Enhanced IBRS, IBPB conditional, RSB filling, PBRSB-eIBRS Not affected
 Vulnerability Srbds:             Not affected
 Vulnerability Tsx async abort:   Not affected
-#######################L1 cache info#####################################
+```
+### L1 cache info
+```
 coherency_line_size:        64
 id:                         0
 level:                      1
@@ -47,7 +50,9 @@ size:                       24K
 type:                       Data
 uevent: 
 ways_of_associativity:      6
-#######################L2 cache info#####################################
+```
+### L2 cache info
+```
 coherency_line_size:        64
 id:                         0
 level:                      2
@@ -59,3 +64,4 @@ size:                       4096K
 type:                       Unified
 uevent: 
 ways_of_associativity:      16
+```
