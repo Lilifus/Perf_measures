@@ -18,11 +18,10 @@ function run
     gnuplot -c plot.gp $1 
     echo $1".png created in ./images/"
 }
-run O3 "-g -Wall"
+run O0 "-g -Wall"
 run O1 "-g -Wall"
 run O2 "-g -Wall"
-run O0 "-g -Wall"
-run funroll-loops "-Wall"
+run O3 "-g -Wall"
 gnuplot -c compiler.gp gcc
 echo "gcc.png creates in ./images/"
 gnuplot -c compiler.gp clang
