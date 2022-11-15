@@ -1,4 +1,15 @@
+# Performance Measures - OBHPC
+This project has for goal to measure the performances of three given programs (dgemm, dotprod and reduc).
+
+The subject can be found in TD2.pdf or TD2.odt, the report is named ./report.pdf, all the datas produced are stored in ./data/
+and the histograms are in ./images/ . 
+
+The ./script.sh build (using the Makefile), run, store the datas and produce all histograms using plot.gp and compiler.gp.
+
+Similar files are in each directory in the case we need to regenerate the datas for a specific program.
+
 # CPU and caches Informations
+
 ### lscpu OUTPUT
 ```
 Architecture:                    x86_64
